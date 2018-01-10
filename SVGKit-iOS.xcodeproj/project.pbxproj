@@ -239,7 +239,7 @@
 		66EEE8661688CB37002E2658 /* SVGStyleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EEE85F1688CB37002E2658 /* SVGStyleElement.m */; };
 		9ED79A24179D87790048AA5B /* SVGGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ED79A22179D87790048AA5B /* SVGGradientLayer.h */; };
 		9ED79A25179D87790048AA5B /* SVGGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED79A23179D87790048AA5B /* SVGGradientLayer.m */; };
-		E76F244D1FD8CB81009AD2F8 /* SVGKit-iOS-Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = E76F244B1FD8CB81009AD2F8 /* SVGKit-iOS-Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E76F244D1FD8CB81009AD2F8 /* SVGKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E76F244B1FD8CB81009AD2F8 /* SVGKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7B908111FDA18D40090A4C5 /* libSVGKit-iOS.1.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6639618E16145D0400E58CCA /* libSVGKit-iOS.1.1.0.a */; };
 		E7B908121FDA18EA0090A4C5 /* AppleSucksDOMImplementation.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E8630E1688C2770059C9C4 /* AppleSucksDOMImplementation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7B908141FDA18EA0090A4C5 /* Attr.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E863101688C2770059C9C4 /* Attr.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -800,7 +800,6 @@
 		E7C0317E1FE0B62600CA8F09 /* ContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E86D5E1741586600F0FA0A /* ContextFilterLogFormatter.h */; };
 		E7C0317F1FE0B62600CA8F09 /* DispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E86D601741586600F0FA0A /* DispatchQueueLogFormatter.h */; };
 		E7C031801FE0B62600CA8F09 /* SVGGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ED79A22179D87790048AA5B /* SVGGradientLayer.h */; };
-		E7EF5D3D1FDA0AFB00473D72 /* SVGKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E8638E1688C2780059C9C4 /* SVGKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1081,8 +1080,8 @@
 		66EEE85F1688CB37002E2658 /* SVGStyleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGStyleElement.m; sourceTree = "<group>"; };
 		9ED79A22179D87790048AA5B /* SVGGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGGradientLayer.h; sourceTree = "<group>"; };
 		9ED79A23179D87790048AA5B /* SVGGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGGradientLayer.m; sourceTree = "<group>"; };
-		E76F24491FD8CB81009AD2F8 /* SVGKitiOSFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVGKitiOSFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E76F244B1FD8CB81009AD2F8 /* SVGKit-iOS-Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SVGKit-iOS-Framework.h"; sourceTree = "<group>"; };
+		E76F24491FD8CB81009AD2F8 /* SVGKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVGKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76F244B1FD8CB81009AD2F8 /* SVGKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVGKit.h; sourceTree = "<group>"; };
 		E76F244C1FD8CB81009AD2F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7C02FB11FE0ADB500CA8F09 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E7C02FB51FE0ADF300CA8F09 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
@@ -1193,7 +1192,7 @@
 			children = (
 				6639633E16145D7700E58CCA /* EXTERNAL REFERENCES */,
 				6649E05E16172CE200AFE92A /* SVGKit-iOS */,
-				E76F244A1FD8CB81009AD2F8 /* SVGKit-iOS-Framework */,
+				E76F244A1FD8CB81009AD2F8 /* SVGKit */,
 				6639619016145D0400E58CCA /* Frameworks */,
 				6639618F16145D0400E58CCA /* Products */,
 			);
@@ -1203,7 +1202,7 @@
 			isa = PBXGroup;
 			children = (
 				6639618E16145D0400E58CCA /* libSVGKit-iOS.1.1.0.a */,
-				E76F24491FD8CB81009AD2F8 /* SVGKitiOSFramework.framework */,
+				E76F24491FD8CB81009AD2F8 /* SVGKit.framework */,
 				E7C030A21FE0B61A00CA8F09 /* libSVGKit-iOS-device.a */,
 				E7C031851FE0B62600CA8F09 /* libSVGKit-iOS-simulator.a */,
 			);
@@ -1525,13 +1524,13 @@
 			path = Unsorted;
 			sourceTree = "<group>";
 		};
-		E76F244A1FD8CB81009AD2F8 /* SVGKit-iOS-Framework */ = {
+		E76F244A1FD8CB81009AD2F8 /* SVGKit */ = {
 			isa = PBXGroup;
 			children = (
-				E76F244B1FD8CB81009AD2F8 /* SVGKit-iOS-Framework.h */,
+				E76F244B1FD8CB81009AD2F8 /* SVGKit.h */,
 				E76F244C1FD8CB81009AD2F8 /* Info.plist */,
 			);
-			path = "SVGKit-iOS-Framework";
+			path = SVGKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1671,8 +1670,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E76F244D1FD8CB81009AD2F8 /* SVGKit-iOS-Framework.h in Headers */,
-				E7EF5D3D1FDA0AFB00473D72 /* SVGKit.h in Headers */,
+				E76F244D1FD8CB81009AD2F8 /* SVGKit.h in Headers */,
 				E7B908121FDA18EA0090A4C5 /* AppleSucksDOMImplementation.h in Headers */,
 				E7B908141FDA18EA0090A4C5 /* Attr.h in Headers */,
 				E7B908161FDA18EA0090A4C5 /* CDATASection.h in Headers */,
@@ -2078,9 +2076,9 @@
 			productReference = 6639618E16145D0400E58CCA /* libSVGKit-iOS.1.1.0.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		E76F24481FD8CB81009AD2F8 /* SVGKitiOSFramework */ = {
+		E76F24481FD8CB81009AD2F8 /* SVGKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E76F244E1FD8CB81009AD2F8 /* Build configuration list for PBXNativeTarget "SVGKitiOSFramework" */;
+			buildConfigurationList = E76F244E1FD8CB81009AD2F8 /* Build configuration list for PBXNativeTarget "SVGKit" */;
 			buildPhases = (
 				E76F24441FD8CB81009AD2F8 /* Sources */,
 				E76F24451FD8CB81009AD2F8 /* Frameworks */,
@@ -2092,9 +2090,9 @@
 			dependencies = (
 				E76F24521FD8CB86009AD2F8 /* PBXTargetDependency */,
 			);
-			name = SVGKitiOSFramework;
+			name = SVGKit;
 			productName = "SVGKit-iOS-Framework";
-			productReference = E76F24491FD8CB81009AD2F8 /* SVGKitiOSFramework.framework */;
+			productReference = E76F24491FD8CB81009AD2F8 /* SVGKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E7C02FC01FE0B61A00CA8F09 /* SVGKit-iOS-device */ = {
@@ -2165,7 +2163,7 @@
 			projectRoot = "";
 			targets = (
 				6639618D16145D0400E58CCA /* SVGKit-iOS */,
-				E76F24481FD8CB81009AD2F8 /* SVGKitiOSFramework */,
+				E76F24481FD8CB81009AD2F8 /* SVGKit */,
 				E7C02FBC1FE0B5CF00CA8F09 /* UniversalLib */,
 				E7C02FC01FE0B61A00CA8F09 /* SVGKit-iOS-device */,
 				E7C030A31FE0B62600CA8F09 /* SVGKit-iOS-simulator */,
@@ -2555,7 +2553,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				PROVISIONING_PROFILE = "B8829AC4-04C1-4193-8D27-8543F41E0D20";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -2574,7 +2571,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				PROVISIONING_PROFILE = "B8829AC4-04C1-4193-8D27-8543F41E0D20";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -2661,9 +2657,9 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = "SVGKit-iOS-Framework/Info.plist";
+				INFOPLIST_FILE = SVGKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = (
@@ -2671,7 +2667,7 @@
 					"-ObjC",
 					"-lxml2",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lumosity.SVGKit-iOS-Framework";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lumosity.SVGKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2717,9 +2713,9 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = "SVGKit-iOS-Framework/Info.plist";
+				INFOPLIST_FILE = SVGKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = (
@@ -2727,7 +2723,7 @@
 					"-ObjC",
 					"-lxml2",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lumosity.SVGKit-iOS-Framework";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lumosity.SVGKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2868,7 +2864,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E76F244E1FD8CB81009AD2F8 /* Build configuration list for PBXNativeTarget "SVGKitiOSFramework" */ = {
+		E76F244E1FD8CB81009AD2F8 /* Build configuration list for PBXNativeTarget "SVGKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E76F244F1FD8CB81009AD2F8 /* Debug */,
@@ -2884,6 +2880,7 @@
 				E7C02FBF1FE0B5CF00CA8F09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7C0309F1FE0B61A00CA8F09 /* Build configuration list for PBXNativeTarget "SVGKit-iOS-device" */ = {
 			isa = XCConfigurationList;
