@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
                  'Moritz Pfeiffer' => 'moritz.pfeiffer@alp-phone.ch',
                  'Steven Fusco'    => 'sfusco@spiral.local',
                  'Eric Man'        => 'Eric@eric-mans-macbook-2.local' }
-  s.source   = { :git => 'https://github.com/SVGKit/SVGKit.git', :branch => "2.x" }
+  s.source   = { :git => 'https://github.com/lumoslabs/SVGKit.git', :branch => "lumberjackDisabled_2x" }
 
   s.ios.source_files = 'Source/*{.h,m}', 'Source/DOM classes/**/*.{h,m}', 'Source/Exporters/*.{h,m}', 'Source/Parsers/**/*.{h,m}', 'Source/QuartzCore additions/**/*.{h,m}', 'Source/Sources/**/*.{h,m}', 'Source/UIKit additions/**/*.{h,m}', 'Source/Unsorted/**/*.{h,m}'
   s.tvos.deployment_target = '9.0'
