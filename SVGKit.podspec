@@ -17,7 +17,6 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/lumoslabs/SVGKit.git', :branch => "lumberjackDisabled_2x" }
 
   s.ios.source_files = 'Source/*{.h,m}', 'Source/DOM classes/**/*.{h,m}', 'Source/Exporters/*.{h,m}', 'Source/Parsers/**/*.{h,m}', 'Source/QuartzCore additions/**/*.{h,m}', 'Source/Sources/**/*.{h,m}', 'Source/UIKit additions/**/*.{h,m}', 'Source/Unsorted/**/*.{h,m}'
-  s.tvos.deployment_target = '9.0'
   s.libraries = 'xml2'
   s.framework = 'QuartzCore', 'CoreText'
   # s.dependency 'CocoaLumberjack', '~> 3.x'
